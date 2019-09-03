@@ -56,5 +56,4 @@ public class StarwarPersonTests extends BaseTest {
         //more asserts here
 
     }
-
 }
