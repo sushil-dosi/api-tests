@@ -24,4 +24,8 @@ public enum ApplicationProperties {
     public int getPort() {
         return Integer.parseInt(properties.getProperty("port"));
     }
+
+    public String getReqresBaseUrl() {
+        return properties.getProperty("reqresBaseUrl");
+    }
 }
